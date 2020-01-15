@@ -1,0 +1,92 @@
+@media (max-width: 800px) {
+  /* HEADER */
+
+  #header {
+    height: 475px;
+    background: #f3f3f3;
+  }
+
+  #logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+  }
+
+  #companyName {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  #showcase {
+    max-width: 475px;
+    padding: 0 10px;
+    padding-top: 40px;
+    margin: auto;
+  }
+
+  #showcase h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  #showcase p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  /* PRICING */
+  .pricingContainer {
+    max-width: 600px;
+    padding: 60px 10px;
+  }
+
+  .pricingContainer > h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .pricingContainer > p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 1rem;
+  }
+
+  /* CARD */
+  .pricingVersion {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .pricingName {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  /* SIGNUP */
+  #signup {
+    margin: 40px 10px;
+    height: 150px;
+  }
+
+  .signupContainer {
+    height: 100%;
+    margin: auto;
+  }
+
+  .newsletters {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .newsletters form input {
+    flex: 0;
+  }
+  .newsletters .button {
+    flex: 1;
+  }
+
+  .signupContainer > p {
+    width: 400px;
+  }
+}
